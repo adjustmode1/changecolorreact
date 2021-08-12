@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/changecolorreact/static/css/main.d24c4dc5.chunk.css",
+    "main.js": "/changecolorreact/static/js/main.667e2cdc.chunk.js",
+    "main.js.map": "/changecolorreact/static/js/main.667e2cdc.chunk.js.map",
+    "runtime-main.js": "/changecolorreact/static/js/runtime-main.50b586a9.js",
+    "runtime-main.js.map": "/changecolorreact/static/js/runtime-main.50b586a9.js.map",
+    "static/js/2.c427ac53.chunk.js": "/changecolorreact/static/js/2.c427ac53.chunk.js",
+    "static/js/2.c427ac53.chunk.js.map": "/changecolorreact/static/js/2.c427ac53.chunk.js.map",
+    "static/js/3.986eee11.chunk.js": "/changecolorreact/static/js/3.986eee11.chunk.js",
+    "static/js/3.986eee11.chunk.js.map": "/changecolorreact/static/js/3.986eee11.chunk.js.map",
+    "index.html": "/changecolorreact/index.html",
+    "static/css/main.d24c4dc5.chunk.css.map": "/changecolorreact/static/css/main.d24c4dc5.chunk.css.map",
+    "static/js/2.c427ac53.chunk.js.LICENSE.txt": "/changecolorreact/static/js/2.c427ac53.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50b586a9.js",
+    "static/js/2.c427ac53.chunk.js",
+    "static/css/main.d24c4dc5.chunk.css",
+    "static/js/main.667e2cdc.chunk.js"
+  ]
+}
