@@ -1,25 +1,49 @@
-import logo from './logo.svg';
 import './App.css';
+import Color from './components/Color';
+import Size from './components/Size';
+import Show from './components/Show';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from 'react'
+
+class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      pick:'red',
+      size:12
+    }
+  }
+  reset = () =>{
+    this.setState({
+      pick:'red',
+      size:12
+    });
+  }
+  inc = (param)=>{
+    this.setState({
+      size: param
+    });
+  }
+  dec = (param)=>{
+    this.setState({
+      size: param
+    });
+  }
+  changeColor = (param)=>{
+    this.setState ({
+      pick:param
+    });
+  }
+  render() {
+    return (
+      <div className="App">
+        <Color pick={this.state.pick} changeColor={this.changeColor}/>
+        <Size size={this.state.size}  inc={this.inc} dec={this.dec}/>
+        <button onClick={this.reset}>reset</button>
+        <Show size={this.state.size} pick={this.state.pick}/>
+      </div>
+    )
+  }
 }
 
 export default App;
